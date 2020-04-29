@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>LUDO - PORTFOLIO</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+.w3-third img{margin-bottom: -6px; opacity: 0.8; cursor: pointer}
+.w3-third img:hover{opacity: 1}
+.center{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+<body>
+    <div class="w3-row" id="makers" style="width:100%; height:100%; display:none">
+
+        <!-- Blog entries -->
+        <div class="w3-col l8 s12" style="width:100%; height:100%;">
+          <!-- Blog entry -->
+          <div class="w3-card-4 w3-margin w3-white">
+            
+            <div class="w3-container">
+              <h3><b>Semaine Internationnale</b></h3>
+              <h5>Makers, <span class="w3-opacity">Avril, 2019</span></h5>
+            </div>
+        
+            <div class="w3-container">
+              <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
+                tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
+                tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+             
+            </div>
+          </div>
+          <hr>
+          <img src="img/preuveMakers.jpg" class="center" alt="Nature" style="width:30%;float:center">
+
+          <a href="portfolio.html" class="w3-button w3-block w3-white w-25">Retour</a>
+          </div>
+          </div>
+</body>
+
+<script>
+
+
+monUrl = window.location.href;
+console.log(monUrl);
+if(monUrl == "http://localhost/Portfolio/preuve.html?makers") {
+    document.getElementById("makers").style.display = "block";
+}
+
+
+</script>
